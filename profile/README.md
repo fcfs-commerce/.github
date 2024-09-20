@@ -14,9 +14,8 @@
 - Spring Data JPA
 - Spring Cloud Netflix Eureka Server, Cloud
 - Spring Cloud Gateway
-- Kafka
 - Docker
-- Redis (Redisson)
+- Redis (Lettuce, Redisson)
 - Lombok
 - QueryDSL
 - Google SMTP
@@ -28,7 +27,17 @@
 ## 🗃 ERD
 ![스크린샷 2024-09-19 오후 7 14 32](https://github.com/user-attachments/assets/04942557-b86d-4dc6-931b-4c9330866f75)
 
-## ✨ 주요 기능
+## 💫 주요 기능
+- **Redis Replication**을 통한 레디스 분산 처리
+    - 마스터-슬레이브 구조를 통해 데이터 복제와 장애 복구
+- **OpenFeign**과 **Resilience4j**를 활용한 마이크로 서비스 간 통신
+    - 신뢰성 있는 통신 및 장애 복구
+- **API Gateway**를 통한 라우팅 및 인증 기능 구현
+    - 클라이언트 요청을 마이크로 서비스로 분산
+    - JWT 인증을 Gateway 서버에서 수행하여 코드 중복 감소
+- **Google SMTP**를 통한 이메일 인증
+
+## ✨ 구현 기능
 ### 회원
 - **회원가입**
     - [아이디, 이메일, 비밀번호, 전화번호, 이름, 우편번호, 주소]를 저장
