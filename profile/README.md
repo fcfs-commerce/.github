@@ -16,13 +16,14 @@
 - Spring Cloud Gateway
 - Docker
 - Redis (Lettuce, Redisson)
+- Kafka
 - Lombok
 - QueryDSL
 - Google SMTP
 - Validation
 
 ## 🔧 아키텍쳐
-![스크린샷 2024-09-19 오후 7 12 31](https://github.com/user-attachments/assets/e1f0c0ac-62db-4d39-b4cf-ea8dbc9bddbe)
+![스크린샷 2024-09-22 오후 8 15 53](https://github.com/user-attachments/assets/d9b26ae2-4152-4aee-af93-223f941eb06e)
 
 ## 🗃 ERD
 ![스크린샷 2024-09-19 오후 7 14 32](https://github.com/user-attachments/assets/04942557-b86d-4dc6-931b-4c9330866f75)
@@ -35,6 +36,7 @@
 - **API Gateway**를 통한 라우팅 및 인증 기능 구현
     - 클라이언트 요청을 마이크로 서비스로 분산
     - JWT 인증을 Gateway 서버에서 수행하여 코드 중복 감소
+- **Kafka**를 통한 부하 분산
 - **Google SMTP**를 통한 이메일 인증
 
 ## ✨ 구현 기능
