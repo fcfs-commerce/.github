@@ -12,7 +12,7 @@
 - MySQL
 - Spring Security
 - Spring Data JPA
-- Spring Cloud Netflix Eureka Server, Cloud
+- Spring Cloud Netflix Eureka Server, Client
 - Spring Cloud Gateway
 - Docker
 - Redis (Lettuce, Redisson)
